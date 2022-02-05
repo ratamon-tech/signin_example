@@ -55,7 +55,7 @@ class _SignUpFormState extends State<SignUpForm> {
         mainAxisSize: MainAxisSize.min,
         children: [
           LinearProgressIndicator(value: _formProgress),
-          Text('Sign up', style: Theme
+          Text('Sign up!!', style: Theme
               .of(context)
               .textTheme
               .headline4),
